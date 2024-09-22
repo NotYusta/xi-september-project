@@ -3,6 +3,7 @@ import Banner from "@/assets/banner.webp";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
+import { URLPrefix } from "@/Constants";
 
 const NavigationBar = () => {
   const [isMobileOpen, setMobileOpen] = useState(false);
@@ -52,7 +53,7 @@ const NavigationBar = () => {
             <li>
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                to="/"
+                to={`${URLPrefix}`}
                 onClick={toggleMobile}
               >
                 Home
@@ -61,7 +62,7 @@ const NavigationBar = () => {
             <li>
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                to="/portofolio"
+                to={`${URLPrefix}/portofolio`}
                 onClick={toggleMobile}
               >
                 Portofolio
@@ -70,7 +71,7 @@ const NavigationBar = () => {
             <li>
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                to="/about"
+                to={`${URLPrefix}/about`}
                 onClick={toggleMobile}
               >
                 About

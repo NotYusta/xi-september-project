@@ -4,8 +4,8 @@ import Home from "./pages/home";
 import NotFound from "./pages/404";
 import Portofolio from "./pages/portofolio";
 import About from "./pages/about";
+import { URLPrefix } from "./Constants";
 
-const URLPrefix = "/xi-september-project";
 function App() {
   return (
     <BrowserRouter>
