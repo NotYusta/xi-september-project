@@ -5,14 +5,15 @@ import NotFound from "./pages/404";
 import Portofolio from "./pages/portofolio";
 import About from "./pages/about";
 
+const URLPrefix = "/xi-september-project";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="*" element={<NotFound />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/portofolio" element={<Portofolio />} />
-        <Route path="/about" element={<About />} />
+        <Route path={`${URLPrefix}`} element={<Home />} />
+        <Route path={`${URLPrefix}/portofolio`}element={<Portofolio />} />
+        <Route path={`${URLPrefix}/about`} element={<About />} />
       </Routes>
     </BrowserRouter>
   );
