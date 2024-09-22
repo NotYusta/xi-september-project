@@ -12,7 +12,11 @@ const NotFound = () => {
         </div>
 
         <div className="flex items-center justify-center py-20 animate-fadeup">
-          <Link to={"/"} className="py-2 px-6 bg-slate-700 shadow-md rounded-md transition-all duration-300 hover:bg-slate-500" replace>
+          <Link
+            to={"/"}
+            className="py-2 px-6 bg-slate-700 shadow-md rounded-md transition-all duration-300 hover:bg-slate-500"
+            replace
+          >
             GO BACK HOME
           </Link>
         </div>

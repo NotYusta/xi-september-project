@@ -1,31 +1,10 @@
-import Footer from "@/components/Footer";
-import NavigationBar from "@/components/NavigationBar";
-
 import CastleIsland from "@/assets/castle_island.webp";
 import FarmerVillage from "@/assets/farmer_village.webp";
 import SmallJapanese from "@/assets/small_japanese.webp";
 import CastleTwo from "@/assets/castle_two.jpg";
-import CastleThree from "@/assets/castle_three.jpg";
-import Coding from "@/assets/coding.jpg";
-import Frozchick from "@/assets/frozchick.jpg";
-import Raznar from "@/assets/raznar.png";
-import FoxyNetwork from "@/assets/foxy_network.png";
-import PathNet from "@/assets/path.png";
+
 import { DefaultLayout } from "@/layouts/DefaultLayout";
 import { Link } from "react-router-dom";
-
-const PortofolioImages = [
-  CastleIsland,
-  FarmerVillage,
-  SmallJapanese,
-  CastleTwo,
-  CastleThree,
-  Coding,
-  Frozchick,
-  Raznar,
-  FoxyNetwork,
-  PathNet,
-];
 
 const About = () => {
   return (

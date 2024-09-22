@@ -1,6 +1,3 @@
-import Footer from "@/components/Footer";
-import NavigationBar from "@/components/NavigationBar";
-
 import CastleIsland from "@/assets/castle_island.webp";
 import FarmerVillage from "@/assets/farmer_village.webp";
 import SmallJapanese from "@/assets/small_japanese.webp";
