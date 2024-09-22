@@ -12,7 +12,6 @@ const NavigationBar = () => {
       return;
     }
 
-
     setMobileOpen(!isMobileOpen);
   };
 
@@ -62,19 +61,19 @@ const NavigationBar = () => {
             <li>
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                to={`${URLPrefix}/portofolio`}
+                to={`${URLPrefix}/about`}
                 onClick={toggleMobile}
               >
-                Portofolio
+                About
               </Link>
             </li>
             <li>
               <Link
                 className="transition-all duration-300 hover:text-blue-400"
-                to={`${URLPrefix}/about`}
+                to={`${URLPrefix}/portofolio`}
                 onClick={toggleMobile}
               >
-                About
+                Portofolio
               </Link>
             </li>
           </ul>

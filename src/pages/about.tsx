@@ -5,6 +5,7 @@ import CastleTwo from "@/assets/castle_two.jpg";
 
 import { DefaultLayout } from "@/layouts/DefaultLayout";
 import { Link } from "react-router-dom";
+import { URLPrefix } from "@/Constants";
 
 const About = () => {
   return (
@@ -163,7 +164,7 @@ const About = () => {
               <h1 className="text-3xl font-bold text-white text-center">
                 View our Portofolio
               </h1>
-              <Link to={`/portofolio`}>
+              <Link to={`${URLPrefix}/portofolio`}>
                 <button className="transition-all duration-300 text-white font-semibold py-1.5 px-8 lg:py-2.5 lg:px-12 bg-blue-500 rounded-3xl hover:text-blue-500 hover:bg-white">
                   Portofolio
                 </button>
